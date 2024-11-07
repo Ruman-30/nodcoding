@@ -1,0 +1,107 @@
+@font-face {
+    font-family: wow;
+    src: url("./fonts/HeyWow-Book.woff2");
+}
+@font-face {
+    font-family: wowsb;
+    src: url("./fonts/HeyWow-SemiBold.woff2");
+}
+@font-face {
+    font-family: wowb;
+    src: url("./fonts/HeyWow-Bold.woff2");
+}
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: wow;
+ }
+html, body {
+height: 100%;
+width: 100%;
+}
+nav{
+    position: fixed;
+    width: 93%;
+    padding: 8px 10px;
+    background-color: #FDFAF5;
+    border-radius: 50px;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav img{
+    height: 25px;
+}
+.part2 button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: #70A2E1;
+    color: #fff;
+
+}
+.part2{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.part2 a{
+    text-decoration: none;
+    color: #111;
+}
+.page1{
+    padding-top: 7%;
+    height: 100vh;
+    width: 100%;
+    background-color: #FDFAF5;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.top-part{
+    height: 76%;
+    width: 80%;
+    background-color: royalblue;
+
+}
+.bottom-part{
+    height: 24%;
+    width: 90%;
+    /* background-color: rgb(46, 116, 46); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-part h1{
+   width: 50%;
+   font-size: 100px;
+   color: #333;
+
+}
+.bottom-part .bottom-part-2{
+   width: 42%;
+   
+}
+.bottom-part-2 p{
+    opacity: 0.7;
+}
+.bottom-part-2 h3{
+   color: #333;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: #222;
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+}
